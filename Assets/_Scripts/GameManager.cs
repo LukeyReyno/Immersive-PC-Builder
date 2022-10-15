@@ -26,6 +26,12 @@ public class GameManager : MonoBehaviour
         
     }
 
+    void Start()
+    {
+        // Disable screen dimming
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+    }
+
     private void OnEnable() {
         _semanticManager.SemanticBufferUpdated += OnSemanticsBufferUpdated;
     }
