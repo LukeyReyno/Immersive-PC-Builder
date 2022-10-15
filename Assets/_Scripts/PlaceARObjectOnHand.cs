@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlaceARObjectOnHand : MonoBehaviour
@@ -15,7 +16,8 @@ public class PlaceARObjectOnHand : MonoBehaviour
 
     private void Update()
     {
-        PlaceObjectOnHand(handPositionSolver.HandPos);
+        if (!arObject.IsUnityNull())
+            PlaceObjectOnHand(handPositionSolver.HandPos);
     }
 
     private void PlaceObjectOnHand(Vector3 handPos)
@@ -40,5 +42,10 @@ public class PlaceARObjectOnHand : MonoBehaviour
                 arObject.transform.Rotate(Vector3.up*speedRotation*Time.deltaTime);
             }
         }
+    }
+
+    public void SetNewObjectToHold(GameObject gameObject)
+    {
+        this.arObject = gameObject;
     }
 }

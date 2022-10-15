@@ -1,0 +1,2 @@
+To add components to the PC case that holds everything, just use one of your hands to place in in the right spot.
+The first component you will put in the PC case is a Motherboard. A motherboard is the main printed circuit board (PCB) in general-purpose computers and other expandable systems. It holds and allows communication between many of the crucial electronic components of a system, such as the central processing unit (CPU) and memory, and provides connectors for other peripherals. (https://en.wikipedia.org/wiki/Motherboard)
