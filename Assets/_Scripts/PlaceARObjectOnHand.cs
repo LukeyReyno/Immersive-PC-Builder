@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlaceARObjectOnHand : MonoBehaviour
 {
     [SerializeField] private HandPositionSolver handPositionSolver;
-    [SerializeField] private GameObject arObject;
+    public GameObject arObject;
     [SerializeField] private float speedMovement = 0.5f;
     [SerializeField] private float speedRotation = 25.0f;
 
