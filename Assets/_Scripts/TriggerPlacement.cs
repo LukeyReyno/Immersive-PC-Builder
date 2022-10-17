@@ -36,7 +36,6 @@ public class TriggerPlacement : MonoBehaviour
             Tween.LocalPosition(other.transform, new Vector3(0.773f, -11.0312f, -1.179602f), duration, 0f);
             Tween.LocalRotation(other.transform, Vector3.zero, duration, 0f);
             StartCoroutine(AttachNewObjectToHand(1));
-            
         }
         else if (other.transform.name == parts[1].name) // cpu
         {
@@ -84,6 +83,7 @@ public class TriggerPlacement : MonoBehaviour
 
     IEnumerator AttachNewObjectToHand(int objectNum)
     {
+        parts[objectNum].SetActive(true);
         yield return new WaitForSeconds(2);
         gameManagerObject.GetComponent<PlaceARObjectOnHand>().arObject = parts[objectNum];
     }
