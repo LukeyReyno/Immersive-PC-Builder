@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pixelplacement;
+using TMPro;
 
 public class TriggerPlacement : MonoBehaviour
 {
@@ -9,9 +10,15 @@ public class TriggerPlacement : MonoBehaviour
     public ParticleSystem particle;
     public AudioSource clickAudioSource;
     public AudioSource positiveAudioSource;
+    public TextMeshProUGUI congratsText;
     public float duration = 0.5f;
 
     public GameObject[] parts;
+
+    private void Start()
+    {
+        congratsText.gameObject.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -71,6 +78,7 @@ public class TriggerPlacement : MonoBehaviour
         {
             Tween.LocalPosition(other.transform, new Vector3(0.01f, -11.31f, 0.44f), duration, 0f);
             Tween.LocalRotation(other.transform, Vector3.zero, duration, 0f);
+            congratsText.gameObject.SetActive(true);
         }
     }
 
