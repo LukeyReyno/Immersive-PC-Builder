@@ -41,14 +41,14 @@ public class GameManager : MonoBehaviour
     }
 
     private void OnSemanticsBufferUpdated(ContextAwarenessStreamUpdatedArgs<ISemanticBuffer> args)
-    {
+    {   
         _overlayImage.gameObject.SetActive(true);
         
         //get the buffer that has been surfaced.
         ISemanticBuffer semanticBuffer = args.Sender.AwarenessBuffer;
         
         //ask for a mask of the sky channel
-        int channel = semanticBuffer.GetChannelIndex("tv_experimental");
+        int channel = semanticBuffer.GetChannelIndex("ground");
 
         _semanticManager.SemanticBufferProcessor.CopyToAlignedTextureARGB32
         (
@@ -58,5 +58,5 @@ public class GameManager : MonoBehaviour
         );
 
         _overlayImage.texture = _semanticTexture;
-        }
+    }
 }

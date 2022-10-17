@@ -859,14 +859,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199135269}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.42857146, z: -0.051}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0758}
   m_LocalScale: {x: 0.035714287, y: 0.035714287, z: 0.035714287}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 754843436}
   - {fileID: 1635775237}
   m_Father: {fileID: 5095684532632913434}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &199135271
 Rigidbody:
@@ -896,7 +896,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.140849, y: 4.2553673, z: 1.1514316}
-  m_Center: {x: 0, y: -11.627684, z: 0.28735662}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &201859562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,6 +1338,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313980885}
   m_Mesh: {fileID: -5319890090668666771, guid: 1fc60669e89784b45b0097506d4b26f1, type: 3}
+--- !u!1 &316080947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1160192114612784185, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
+  m_PrefabInstance: {fileID: 364984234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &316080948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
+  m_PrefabInstance: {fileID: 364984234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &321056326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1347,7 +1357,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_text
-      value: RAM
+      value: 'RAM
+
+        Random-access memory or RAM is a form of computer memory
+        that can be read and changed in any order, typically used to store working
+        data and machine code. A RAM device allows for the fast transportation of
+        data to be used in programs and applications. Typically, RAM sticks go directly
+        on the MotherBoard. (https://en.wikipedia.org/wiki/Random-access_memory)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_fontSize
+      value: 18.1
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_Pivot.x
@@ -1379,11 +1399,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1170
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2532
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1411,19 +1431,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.30679253
+      value: 0.15711594
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.03378418
+      value: 0.0276369
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.94546133
+      value: 0.97226644
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.10411477
+      value: -0.17102297
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1473,7 +1493,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 5095684532632913434}
     m_Modifications:
     - target: {fileID: 1160192114612784185, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_Name
@@ -1481,15 +1501,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1160192114612784185, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.015714284
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.014285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.014285713
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0646
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1497,7 +1529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1505,7 +1537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1513,7 +1545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1968640627088561795, guid: 942e5cb25dd2f4f76860a5a7d6346eea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1538,7 +1570,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_text
-      value: M2
+      value: 'M2
+
+        M.2 is the current high-speed standard for massive storage
+        expansion in computers. This Solid State Drive will be place in the MotherBoard.
+        In this build, the computer''s Operating System (OS) will be installed on
+        it along with any applications, documents, or images that the user desires.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_fontSize
+      value: 18.7
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_Pivot.x
@@ -1570,11 +1611,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1170
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2532
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1602,19 +1643,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.3430273
+      value: 0.3938684
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.030963253
+      value: 0.032101795
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9350136
+      value: -0.91557014
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0843987
+      value: 0.074622504
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1873,6 +1914,7 @@ MonoBehaviour:
   - {fileID: 5853915093492261241}
   - {fileID: 1849869118}
   - {fileID: 2356974526230128113}
+  - {fileID: 316080947}
   - {fileID: 199135269}
 --- !u!54 &455043918
 Rigidbody:
@@ -2946,7 +2988,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_text
-      value: GPU
+      value: 'GPU
+
+        A graphics card (also called a video card or GPU) is an
+        expansion card which generates a feed of output images to a display device,
+        such as a computer monitor. Graphics cards are sometimes called discrete
+        or dedicated graphics cards to emphasize their distinction to integrated
+        graphics. This large piece of hardware has its own integrated cooling solution
+        and is placed in a PCIE slot on the MotherBoard. (https://en.wikipedia.org/wiki/Graphics_card)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_fontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065112, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_Camera
@@ -2982,11 +3035,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1170
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2532
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalScale.x
@@ -3010,31 +3063,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.00333
+      value: 0.00575
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.059034094
+      value: 0.006010549
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.08039869
+      value: -0.011341264
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.8020267
+      value: 0.88351125
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5889008
+      value: -0.46823412
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00010401
+      value: 0.00012
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0
+      value: -0.00069
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3409,7 +3462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754843435}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5609368, y: -13.551386, z: 0.4832139}
+  m_LocalPosition: {x: -1.57, y: -2.26, z: 0.08}
   m_LocalScale: {x: 5.727396, y: 5.727396, z: 6.5071335}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3584,7 +3637,7 @@ Transform:
   - {fileID: 1395554815}
   - {fileID: 1650966872}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!1 &812609532
 GameObject:
@@ -6704,7 +6757,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1326540320}
-  - component: {fileID: 1326540321}
   - component: {fileID: 1326540322}
   - component: {fileID: 1326540323}
   m_Layer: 0
@@ -6729,21 +6781,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1326540321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326540319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e4010be938304e0aae11d6d2be48f93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _arCamera: {fileID: 929019166}
-  _semanticManager: {fileID: 1335602318}
-  _overlayImage: {fileID: 1696788587}
 --- !u!114 &1326540322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8524,7 +8561,7 @@ Transform:
   - {fileID: 167855587}
   - {fileID: 2080037290}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!1 &1594634550
 GameObject:
@@ -8635,7 +8672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635775236}
   m_LocalRotation: {x: 0.000000021855696, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02586703, y: -11.289918, z: 0.40865135}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 195.32512, y: 195.32512, z: 195.32512}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9292,7 +9329,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_text
-      value: CPU
+      value: 'CPU
+
+        A central processing unit (CPU) is the electronic circuitry
+        that executes instructions comprising a computer program. The CPU performs
+        basic arithmetic, logic, controlling, and input/output (I/O) operations specified
+        by the instructions in the program. This goes in a specific socket on the
+        MotherBoard, and will need a cooling solution to not overheat. (https://en.wikipedia.org/wiki/Central_processing_unit)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_fontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_Pivot.x
@@ -9324,11 +9371,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1170
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2532
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalScale.x
@@ -9356,19 +9403,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.12020919
+      value: 0.11879627
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.04713495
+      value: -0.0505909
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.36199233
+      value: -0.38853145
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.92319536
+      value: 0.91234386
       objectReference: {fileID: 0}
     - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -9732,7 +9779,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849869118}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -0.016055603, y: 0.054226674, z: -0.009750396}
+  m_LocalPosition: {x: -0.0821, y: 0.0722, z: -0.009750396}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10785,7 +10832,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8579490107637837361, guid: 89faef3aa346c4ec3aa85d065dd96ded, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8579490107637837361, guid: 89faef3aa346c4ec3aa85d065dd96ded, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11410,6 +11457,148 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092683801}
   m_Mesh: {fileID: -8104378957584961196, guid: a2dd36c0663fe472c9e6054f38ddb2f5, type: 3}
+--- !u!1001 &2119645862
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 316080948}
+    m_Modifications:
+    - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_text
+      value: 'PSU
+
+        A Power Supply Unit (PSU) converts AC electricity from
+        the wall to a lower DC voltage that the computer can use. This will be give
+        the MotherBoard the power it needs to operate with the other components.
+        (Some other components may also needed to be connected to the PSU.) (https://en.wikipedia.org/wiki/Power_supply_unit_(computer))'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563847590801, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_fontSize
+      value: 56.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065112, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.010000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.010000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.009090912
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9680158
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.018872915
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.25013074
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0048766728
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065116, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096563922065117, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_Sources.Array.data[0].sourceTransform
+      value: 
+      objectReference: {fileID: 1103282450}
+    - target: {fileID: 6823096563922065119, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_Name
+      value: Worldspace UI Panel Canvas (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096564685592787, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -2317.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823096564685592787, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 158.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d5ac512eddcb4b51b1e2ffb103b091f, type: 3}
 --- !u!1 &2124122185
 GameObject:
   m_ObjectHideFlags: 0
@@ -29762,7 +29951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746925039543232951}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -0.036600005, y: 0.034599986, z: -0.007742822}
+  m_LocalPosition: {x: -0.036600005, y: 0.0878, z: -0.007742822}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32230,7 +32419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4237903594542395769, guid: 191be99d7e07a4045a9f8b984b46b586, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4237903594542395769, guid: 191be99d7e07a4045a9f8b984b46b586, type: 3}
       propertyPath: m_LocalScale.x
@@ -33894,7 +34083,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2356974526230128113}
   m_LocalRotation: {x: 0.0057324856, y: -0.7070836, z: 0.7070836, w: 0.0057324856}
-  m_LocalPosition: {x: -0.0335, y: 0.030400004, z: -0.021679282}
+  m_LocalPosition: {x: 0.0043, y: 0.0304, z: -0.0415}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -47040,6 +47229,7 @@ Transform:
   - {fileID: 7889914408720626390}
   - {fileID: 3170102530468691787}
   - {fileID: 1849869119}
+  - {fileID: 316080948}
   - {fileID: 199135270}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -47349,7 +47539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627345680735464732}
   m_LocalRotation: {x: 0.0057324856, y: -0.7070836, z: 0.7070836, w: 0.0057324856}
-  m_LocalPosition: {x: -0.0329431, y: 0.054008555, z: -0.0025441349}
+  m_LocalPosition: {x: -0.0329431, y: 0.0364, z: -0.0025441349}
   m_LocalScale: {x: 1.1249563, y: 1, z: 1.1249561}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -64887,7 +65077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5853915093492261241}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -0.037704438, y: 0.031051466, z: -0.0040840507}
+  m_LocalPosition: {x: -0.0726, y: 0.031051466, z: -0.0040840507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

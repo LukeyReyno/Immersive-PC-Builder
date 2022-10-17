@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1968640627088561795}
+  - component: {fileID: 1249030283544666227}
   m_Layer: 0
   m_Name: 600wattpsu
   m_TagString: Untagged
@@ -38,6 +39,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!65 &1249030283544666227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160192114612784185}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.600876, y: 1.8328314, z: 3.1172485}
+  m_Center: {x: -0.6398215, y: -0.42477724, z: -0.39925364}
 --- !u!1 &3089605280892138740
 GameObject:
   m_ObjectHideFlags: 0
