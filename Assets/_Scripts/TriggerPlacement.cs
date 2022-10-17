@@ -55,13 +55,19 @@ public class TriggerPlacement : MonoBehaviour
             Tween.LocalRotation(other.transform, new Vector3(90f, 0, 0), duration, 0f);
             StartCoroutine(AttachNewObjectToHand(5));
         }
-        else if (other.transform.name == parts[5].name) // psu
+        else if (other.transform.name == parts[5].name) // cooler
+        {
+            Tween.LocalPosition(other.transform, new Vector3(1.116f, -10.58f, -0.75f), duration, 0f);
+            Tween.LocalRotation(other.transform, new Vector3(-90f, 180f, 0), duration, 0f);
+            StartCoroutine(AttachNewObjectToHand(6));
+        }
+        else if (other.transform.name == parts[6].name) // psu
         {
             Tween.LocalPosition(other.transform, new Vector3(1.534f, -13.279f, -0.948f), duration, 0f);
             Tween.LocalRotation(other.transform, new Vector3(0, 90f, 0), duration, 0f);
-            StartCoroutine(AttachNewObjectToHand(6));
+            StartCoroutine(AttachNewObjectToHand(7));
         }
-        else if (other.transform.name == parts[6].name) // side panel
+        else if (other.transform.name == parts[7].name) // side panel
         {
             Tween.LocalPosition(other.transform, new Vector3(0.01f, -11.31f, 0.44f), duration, 0f);
             Tween.LocalRotation(other.transform, Vector3.zero, duration, 0f);
