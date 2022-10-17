@@ -27,6 +27,7 @@ public class PlaceARObjectOnHand : MonoBehaviour
         if (distance >= minDistance)
         {
             arObject.transform.LookAt(handPos);
+            arObject.transform.Rotate(Vector3.up, 180, Space.Self);
             shouldAdjustRotation = true;
         }
         else
