@@ -33,38 +33,38 @@ public class TriggerPlacement : MonoBehaviour
 
         if (other.transform.name == parts[0].name)  // motherboard
         {
-            Tween.LocalPosition(other.transform, new Vector3(1.0248f, -11.0312f, -1.179602f), duration, 0f);
+            Tween.LocalPosition(other.transform, new Vector3(0.773f, -11.0312f, -1.179602f), duration, 0f);
             Tween.LocalRotation(other.transform, Vector3.zero, duration, 0f);
             StartCoroutine(AttachNewObjectToHand(1));
             
         }
         else if (other.transform.name == parts[1].name) // cpu
         {
-            Tween.LocalPosition(other.transform, new Vector3(0.9224068f, -10.48776f, -1.356764f), duration, 0f);
+            Tween.LocalPosition(other.transform, new Vector3(0.67067f, -10.48776f, -1.356764f), duration, 0f);
             Tween.LocalRotation(other.transform, new Vector3(90, 0, 0), duration, 0f);
             StartCoroutine(AttachNewObjectToHand(2));
         }
         else if (other.transform.name == parts[2].name) // m2
         {
-            Tween.LocalPosition(other.transform, new Vector3(1.055724f, -11.13056f, -1.313646f), duration, 0f);
+            Tween.LocalPosition(other.transform, new Vector3(0.803924f, -11.13056f, -1.313646f), duration, 0f);
             Tween.LocalRotation(other.transform, Vector3.zero, duration, 0f);
             StartCoroutine(AttachNewObjectToHand(3));
         }
         else if (other.transform.name == parts[3].name) // ram
         {
-            Tween.LocalPosition(other.transform, new Vector3(0.4495568f, -10.48165f, -1.154988f), duration, 0f);
+            Tween.LocalPosition(other.transform, new Vector3(0.197757f, -10.48165f, -1.154988f), duration, 0f);
             Tween.LocalRotation(other.transform, Vector3.zero, duration, 0f);
             StartCoroutine(AttachNewObjectToHand(4));
         }
         else if (other.transform.name == parts[4].name) // rtx3080
         {
-            Tween.LocalPosition(other.transform, new Vector3(0.938f, -11.1488f, -0.8209801f), duration, 0f);
+            Tween.LocalPosition(other.transform, new Vector3(0.6862f, -11.1488f, -0.8209801f), duration, 0f);
             Tween.LocalRotation(other.transform, new Vector3(90f, 0, 0), duration, 0f);
             StartCoroutine(AttachNewObjectToHand(5));
         }
         else if (other.transform.name == parts[5].name) // cooler
         {
-            Tween.LocalPosition(other.transform, new Vector3(1.116f, -10.58f, -0.75f), duration, 0f);
+            Tween.LocalPosition(other.transform, new Vector3(0.8642f, -10.58f, -0.75f), duration, 0f);
             Tween.LocalRotation(other.transform, new Vector3(-90f, 180f, 0), duration, 0f);
             StartCoroutine(AttachNewObjectToHand(6));
         }
